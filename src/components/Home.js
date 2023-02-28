@@ -2,7 +2,15 @@
 import React from "react";
 
 const Home = () => {
-  return <h2> I am the Home page </h2>;
+  return (
+    <div>
+      <h2> Welcome to the Todo List App developed by Cagdas Kalsen.</h2>
+      <h2>
+        Start by clicking on the "TODOS" button located on the top right of the
+        page. This will take you to the main Todo List screen.
+      </h2>
+    </div>
+  );
 };
 
 export default Home;
